@@ -1,0 +1,66 @@
+SUBIR REPOSITORIO A GIT:
+
+Entramos a Git Bash desde la ruta donde tendremos nuestro proyecto y inicializamos el repositorio.
+git init
+----------------------------------------------------
+Opcional:
+Verificamos lo que vamos a subir.
+git status
+----------------------------------------------------
+Agregamos todo el contenido del proyecyo.
+git add .
+git commit -m "Se agrega el Proyecto"
+----------------------------------------------------
+Configurar nuestro Git para poder subir nuestro Proyecto, agregamos usuario y correo electronico.
+git config --global user.email danielolivares1506@gmail.com
+git config --global user.name OlivaresDaniel
+----------------------------------------------------
+Repetimos el git commit:
+git commit -m "Se agrega el Proyecto"
+----------------------------------------------------
+Subimos el contenido a nuestra rama principal.
+git branch -M main
+----------------------------------------------------
+Subimos al repositorio remoto.
+Ejemplo: git remote add origin https://github.com/OlivaresDaniel/Portfolios-Web.git
+----------------------------------------------------
+Indicar que hacemos el push para poder hacer efectiva la sincornizacion de mi local con mi remoto.
+git push -u origin main
+
+
+CAMBIOS EN EL CONTENIDO?
+
+Comprobamos que se han modificado el contenido.
+git status
+----------------------------------------------------
+Agregamos todo el contenido del proyecyo. Recordemos esto es aun en local.
+git add .
+git commit -m "Se agrega contenido actualizado"
+----------------------------------------------------
+Indicar que hacemos el push para poder hacer efectiva la sincornizacion de mi local con mi remoto.
+git push -u origin main
+
+
+
+CUALES SON LOS COMMITS REALIZADOS SOBRE EL PROYECTO?
+
+git log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
