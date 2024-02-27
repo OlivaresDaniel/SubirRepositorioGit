@@ -11,10 +11,11 @@ Agregamos todo el contenido del proyecyo.
 git add .
 git commit -m "Se agrega el Proyecto"
 ----------------------------------------------------
+Opcional:
 Configurar nuestro Git para poder subir nuestro Proyecto, agregamos usuario y correo electronico.
 git config --global user.email danielolivares1506@gmail.com
 git config --global user.name OlivaresDaniel
-----------------------------------------------------
+
 Repetimos el git commit:
 git commit -m "Se agrega el Proyecto"
 ----------------------------------------------------
